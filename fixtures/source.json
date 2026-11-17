@@ -1,0 +1,25 @@
+{
+  "title": "无人值守门店交易流水的补采与归属",
+  "category": "无人值守店",
+  "choice": "门店",
+  "revision": "游标",
+  "detail_label": "事件流水",
+  "entity": "事件",
+  "fact": "交易",
+  "items": [
+    {
+      "id": "telemetry-a",
+      "name": "门店 A 柜门事件",
+      "group": "甲",
+      "detail": "事件流水甲",
+      "changed_detail": "事件流水修订甲"
+    },
+    {
+      "id": "telemetry-b",
+      "name": "门店 B 扫码事件",
+      "group": "乙",
+      "detail": "事件流水乙",
+      "changed_detail": "事件流水修订乙"
+    }
+  ]
+}
